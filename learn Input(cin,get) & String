@@ -1,0 +1,79 @@
+#include <iostream>
+#include <cstring> // strlen() 함수를 사용하기 위해서
+
+using namespace std;
+
+int main() {
+    
+    // <<<<<사용자 입력>>>>>
+
+    const int Size = 15; // 상수 15 입력
+    // 상수 15를 이용한 name1, name2에 대한 배열의 크기 선언
+
+    char name1[Size]; // 비어있는 배열
+    char name2[Size] = "C++programing"; // 문자열 상수의 배열로 초기화
+
+    cout << "안녕하세요! 저는 " << name2;
+
+    cout << "입니다! 성함이 어떻게 되시나요?\n";
+
+// <사용자의 입력을 받고 이에 따른 결과를 출력할 수 있는 cin과 getline>
+
+    cin >> name1; 
+    // cin >> 변수이름; 의 형태, 꺽새의 방향 기억하기! cin을 name1에 저장하겠다!
+    // 사용자가 입력한 것을 우측에 해당한 name1에 저장.
+    // cin.getline(name1, Size); = 공백을 포함해서 입력하는 방법
+    // cin.getline(변수이름, 입력할 최대 Size 명시); <여기서, getline = get 과 같다.>
+    // lee suwan으로 입력하면 여백 앞 세글자만 입력된다. 공백을 만나면 문자열의 끝이라고 인식
+
+    cout << "음, " << name1 << "씨, 당신의 이름은 ";
+
+    cout << strlen(name1) << "자입니다만\n";
+     // strlen : 문자열의 길이 반환, #include <cstring> 헤더파일 필요
+
+    cout << sizeof(name1) << "바이트 크기의 배열에 저장되었습니다. \n";
+     // sizeof : 변수의 byte의 크기를 반환
+
+    cout << "이름이 " << name1[0] << "자로 시작하는군요.\n";
+
+    name2[3] = '\0';
+
+    cout << "제 이름의 처음 세 문자는 다음과 같습니다: ";
+
+    cout << name2 << endl;
+
+    return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+// C++에서 문자열을 다루는 방법 중 하나인 string
+/*
+C 스타일로 string 객체를 초기화할 수 있다.(C 스타일은 지금까지 우리가 한 모든 기본규칙)
+cin을 사용하여 string 객체에 키보드 입력을 저장할 수 있다.
+cout을 사용하여 string 객체를 표현할 수 있다.
+배열 표기를 사용하여 string 객체에 저장되어 있는 개별적인 문자들에 접근할 수 있다.  
+= 문자열과 동일하다. So, string과 문자열은 서로 동일한 방식으로 표현할 수 있음.
+
+배열을 다른 배열에 통째로 대입할 수 없다. >> string에서는 이게 가능해!
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    char char1[20];
+    char char2[20] = "jaguar";
+    
+    string str1;
+    string str2 = "panda";
+    char1 = char2; // 틀리다, 문자열이니까 안돼
+    str1 = str2; // 맞다, string은 가능
+
+    cout << str1 << endl; // panda 라고 출력됨.
+    cout << str1[0] << endl; // 0번째 인덱스인 p 가 출력됨.
+
+    return 0;
+}
