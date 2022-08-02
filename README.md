@@ -5,7 +5,7 @@ Just for Self-Study with C++ !
 
 //    
 // Section 1. Dealing with Data //
-//  
+//      
 
 1-1. Hello.cpp : 변수의 선언과 규칙
 
