@@ -4,8 +4,7 @@ Just for Self-Study with C++ !
 
 
 //    
-// Section 1. Dealing with Data //
-//      
+///// Section 1. Dealing with Data /////
 
 1-1. Hello.cpp : 변수의 선언과 규칙
 
@@ -19,8 +18,7 @@ Just for Self-Study with C++ !
                
                
 //               
-// Section 2. Complex Data //
-//  
+///// Section 2. Complex Data /////
 
 2-1. Arrange : 배열과 문자열
 
@@ -36,8 +34,7 @@ Just for Self-Study with C++ !
 
 
 //      
-// Section 3. Loop //
-//  
+///// Section 3. Loop /////
 
 3-1. For : 반복문 / 반복문의 정의와 for문의 형태
 
@@ -49,8 +46,7 @@ Just for Self-Study with C++ !
 
 
 //   
-// Section 4. Branch Syntax //
-//  
+///// Section 4. Branch Syntax /////
 
 4-1. Ifelse : if 구문과 if else 구문
 
@@ -60,8 +56,7 @@ Just for Self-Study with C++ !
 
 
 //   
-// Section 5. Function //
-//  
+///// Section 5. Function /////
 
 5-1. Function1 : 함수의 기초
 
@@ -75,8 +70,7 @@ Just for Self-Study with C++ !
          
          
 //            
-// Section 6. Utilization of Functions //
-//  
+///// Section 6. Utilization of Functions /////
 
 6-1. Function3 : 인라인 함수와 디폴트 매개변수
 
@@ -88,8 +82,7 @@ Just for Self-Study with C++ !
          
          
 //           
-// Section 7. Class and Object //
-//  
+///// Section 7. Class and Object /////
 
 7-1. DivideCompile : 분할 컴파일
 
@@ -115,8 +108,7 @@ Just for Self-Study with C++ !
 
 
 //  
-// Section 8. Utilization of Class //
-//  
+///// Section 8. Utilization of Class /////
 
 8-1. Overloading : 연산자 오버로딩
 
@@ -132,8 +124,7 @@ Just for Self-Study with C++ !
 
 
 //   
-// Section 9. Class Inheritance //
-//  
+///// Section 9. Class Inheritance /////
 
 9-1. Inheritance : 상속의 기본
 
